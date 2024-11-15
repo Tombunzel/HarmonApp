@@ -7,11 +7,11 @@ from passlib.context import CryptContext
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from HarmonApp import models
-from HarmonApp.datamanager.database import get_db
-from HarmonApp.schemas import user_schemas
-from HarmonApp.schemas.user_schemas import UserRole
-from HarmonApp.auth_utils import (
+import models
+from datamanager.database import get_db
+from schemas import user_schemas
+from schemas.user_schemas import UserRole
+from auth_utils import (
     verify_password,
     create_access_token,
     get_current_entity,
