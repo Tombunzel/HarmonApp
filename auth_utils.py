@@ -7,7 +7,7 @@ from fastapi import HTTPException, status
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
-from HarmonApp import models
+import models
 from fastapi.security import OAuth2PasswordBearer
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
