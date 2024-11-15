@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.openapi.utils import get_openapi
 
-import HarmonApp.models as models
-from HarmonApp.datamanager.database import engine
-from HarmonApp.routes import (
+import models as models
+from datamanager.database import engine
+from routes import (
     user,
     artist,
     track,
