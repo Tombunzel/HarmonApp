@@ -4,10 +4,10 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from HarmonApp import models
-from HarmonApp.datamanager.database import get_db
-from HarmonApp.routes.artist import get_current_active_artist
-from HarmonApp.schemas import album_schemas
+import models
+from datamanager.database import get_db
+from routes.artist import get_current_active_artist
+from schemas import album_schemas
 
 router = APIRouter(
     prefix="/albums",
