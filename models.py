@@ -2,8 +2,8 @@ from sqlalchemy import String, Integer, Boolean, Column, text, TIMESTAMP, Date, 
 from sqlalchemy import PrimaryKeyConstraint, Enum as SQLAlchemyEnum
 from sqlalchemy.orm import relationship
 
-from HarmonApp.datamanager.database import Base
-from HarmonApp.schemas.user_schemas import UserRole
+from datamanager.database import Base
+from schemas.user_schemas import UserRole
 
 
 class User(Base):
