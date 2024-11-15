@@ -7,12 +7,12 @@ from passlib.context import CryptContext
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from HarmonApp import models
-from HarmonApp.datamanager.database import get_db
-from HarmonApp.routes.user import get_current_admin_user
-from HarmonApp.schemas import artist_schemas
-from HarmonApp.schemas.artist_schemas import ArtistRole
-from HarmonApp.auth_utils import verify_password, create_access_token, get_current_entity, ACCESS_TOKEN_EXPIRE_MINUTES
+import models
+from datamanager.database import get_db
+from routes.user import get_current_admin_user
+from schemas import artist_schemas
+from schemas.artist_schemas import ArtistRole
+from auth_utils import verify_password, create_access_token, get_current_entity, ACCESS_TOKEN_EXPIRE_MINUTES
 
 router = APIRouter(
     prefix="/artists",
