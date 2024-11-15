@@ -4,10 +4,10 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from HarmonApp import models
-from HarmonApp.datamanager.database import get_db
-from HarmonApp.routes.user import get_current_active_user, get_current_admin_user
-from HarmonApp.schemas import user_payment_method_schemas
+import models
+from datamanager.database import get_db
+from routes.user import get_current_active_user, get_current_admin_user
+from schemas import user_payment_method_schemas
 
 router = APIRouter(
     prefix="/user_payment_methods",
