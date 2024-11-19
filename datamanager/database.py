@@ -4,8 +4,7 @@ from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 load_dotenv()
-DB_PASSWORD = os.environ.get('DB_PASSWORD')
-SQLALCHEMY_DATABASE_URI = f'postgresql+psycopg2://postgres:{DB_PASSWORD}@127.0.0.1:5432/HarmonApp-v1.1'
+SQLALCHEMY_DATABASE_URI = os.environ.get('CONNECTION_STRING')
 
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
