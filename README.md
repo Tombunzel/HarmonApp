@@ -50,13 +50,13 @@
     <li>
       <a href="#try-the-deployed-api">Try the Deployed API</a>
       <ul>
-        <li><a href="#deployed-prerequisites">Prerequisites</a></li>
+        <li><a href="#what-you-need">What You Need</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
       </ul>
     </li>
     <li><a href="#local-development-setup">Local Development Setup</a></li>
       <ul>
-        <li><a href="#local-prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#testing-the-installation">Testing the Installation</a></li>
       </ul>
@@ -81,7 +81,7 @@ You could either try out the deployed API as an artist/user by sending requests 
 or set up the API locally by cloning this repository.  
 
 
-
+<!-- AUTHENTICATION-->
 ### Authentication
 
 * The API uses OAuth2 with password flow
@@ -112,13 +112,13 @@ or set up the API locally by cloning this repository.
 ## Try the Deployed API
 
 
-<!-- DEPLOYED PREREQUISITES -->
-### Prerequisites
+<!-- WHAT YOU NEED -->
+### What You Need
 
 - A modern web browser or API client (like Postman, cURL, etc.)
 - The base URL of the API: `https://render-harmonapp.onrender.com`
 
-
+<!-- GETTING STARTED -->
 ### Getting Started
 
 To get started, a new user would need to:
@@ -161,7 +161,7 @@ To get started, a new user would need to:
 <!-- LOCAL DEVELOPMENT SETUP -->
 ## Local Development Setup
 
-<!-- LOCAL PREREQUISITES -->
+<!-- PREREQUISITES -->
 ### Prerequisites
 - Python 3.8 or higher
 - PostgreSQL installed on your machine
@@ -250,7 +250,7 @@ and then run the file:
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions are **greatly appreciated**.
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions are **greatly appreciated**.
 
 If you have a suggestion that would make this app better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".<br>
 Don't forget to give the project a star!
