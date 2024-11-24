@@ -18,7 +18,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tombunzel/HarmonApp">
-    <img src="HarmonApp/harmon_logo.png" alt="Logo" width="130" height="130">
+    <img src="harmon_logo.png" alt="Logo" width="130" height="130">
   </a>
 
 <h3 align="center">HarmonApp</h3>
